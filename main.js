@@ -19,7 +19,7 @@ function mudarPersonagem(personagem) {
     let dict ={
         1: ["img/Sombra-portrait.jpg", "Sombra (Olivia Colomar)", "Hacker","Uma das hackers mais famosas do mundo, Sombra usa informações para manipular aqueles que estão no poder.","QUALQUER COISA PODE SER HACKEADA… E QUALQUER UM."],
 
-        2: ["img/Dva-portrait.jpg", "D.va (Hana Song)", "Função da D.va....Tankar e não morrer","D.Va é uma ex-gamer profissional que sabe como usar suas habilidades para pilotar um mecha de última geração na defesa de sua cidade natal.","EU JOGO PARA GANHAR"],
+        2: ["img/DVa-portrait.jpg", "D.va (Hana Song)", "Função da D.va....Tankar e não morrer","D.Va é uma ex-gamer profissional que sabe como usar suas habilidades para pilotar um mecha de última geração na defesa de sua cidade natal.","EU JOGO PARA GANHAR"],
 
         3: ["img/Tracer-portrait.jpg", "Tracer (Lena Oxton)", "Dps da desgraça","A ex-agente da Overwatch conhecida como Tracer é uma aventureira que salta no tempo e é uma força incontrolável para o bem.","NÃO SE PREOCUPEM QUERIDOS! A CAVALARIA CHEGOU!"],
         
@@ -37,7 +37,7 @@ function mudarPersonagem(personagem) {
 
         10: ["img/Moira.jpg","Moira","Healer","Tão brilhante quanto controversa, a cientista Moira O’Deorain pesquisa o que há de mais avançado na engenharia genética, buscando uma forma de reescrever os fundamentos que constroem a vida.","A CIÊNCIA REVELARÁ A VERDADE."],
 
-        11: ["img/Reaper-Portrait.jpg","Reaper","Dps/Dano","Há quem fale sobre um terrorista em um manto preto, conhecido apenas como Reaper. Sua identidade e motivações são um mistério. O que se sabe é que onde ele aparece, a morte o segue.","A MORTE ANDA ENTRE VOCÊS."],
+        11: ["img/Reaper-portrait.jpg","Reaper","Dps/Dano","Há quem fale sobre um terrorista em um manto preto, conhecido apenas como Reaper. Sua identidade e motivações são um mistério. O que se sabe é que onde ele aparece, a morte o segue.","A MORTE ANDA ENTRE VOCÊS."],
 
     }
     document.getElementById("personagem").src = dict [personagem] [0]
